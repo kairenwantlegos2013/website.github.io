@@ -1,0 +1,114 @@
+header {
+    background-color: red;
+    color:purple;
+    text-align: center;
+    font-size: 30px;
+    border: 3px solid green;
+    font-weight: bold;
+    font-family: fantasy;
+    padding-top: 20px;
+    height: 100px;
+}
+
+.nav-bar {
+    width: 100%;
+    border: 3px solid green;
+    background-color: red;
+    padding-top: 20px;
+    height: 60px;
+}
+
+
+.profile{
+    text-align: center;
+    background-color: firebrick;
+    float: left;
+    width: 60%;
+}
+footer {
+    background-color: blue;
+    color: rgb(124, 126, 128);
+    font-size: 12px;
+    border: 3px solid white;
+    text-align: center;
+}
+
+.blink-color {
+    animation-name:blink-color-animation;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes blink-color-animation {
+    0%{
+        color: blue;
+        font-size: 30px;
+    }
+
+    25%{
+        color: brown;
+        font-size: 38px;
+    }
+
+    50%{
+        color: antiquewhite;
+        font-size: 50px;
+    }
+
+    75%{
+        color: coral;
+        font-size: 38px;
+    }
+
+    100%{
+        color: dimgrey;
+        font-size: 30px;
+    }
+}
+
+.fade-in {
+    animation-name: fade-in-animation;
+    animation-duration: 6s;
+}
+
+@keyframes fade-in-animation{
+    from{
+        opacity: 0;
+        transform: rotate(-100deg);
+    }
+    to{
+        opacity: 1;
+        transform: rotate(0deg);
+    }
+}
+
+.project-table {
+    text-align: center;
+    background-color: white;
+}
+
+.wrapper {
+    background-color: rosybrown;
+    width: 70%;
+    margin: auto;
+}
+
+.sidebar-left {
+    background-color: rgb(255, 255, 255);
+    float: left;
+    width: 20%;
+    height: 1000px;
+}
+
+.sidebar-right{
+    background-color: rgb(255, 255, 255) ;
+    float: right;
+    width: 20%;
+    height: 1000px;
+}
+
+.row {
+    width: 80%;
+    margin: auto;
+}
